@@ -1,0 +1,40 @@
+.comix-table{
+    background:black;
+    width: 600px;
+    height: 900px;
+    margin:auto;
+}
+.pic1 {
+    background-image: url("img/pic1.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pic2 {
+    background-image: url("img/pic2.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pic3 {
+    background-image: url("img/pic3.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    height: 900px;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    text-align: center;
+}
+hr{
+   height: 10px;
+   width: 600px;
+   background-color: black;
+   margin-bottom: 30px;
+}

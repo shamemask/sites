@@ -1,0 +1,72 @@
+body
+{
+	background-color: darkblue;
+}
+table
+{
+	width: 800px;
+	height: 800px;
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+td
+{
+	width: 246px;
+	height: 246px;
+	border: 10px solid whitesmoke;
+	box-shadow: 0px 0px 50px 20px white;
+}
+.image-one
+{
+	background-image: url(images/1.png);
+	background-position: center;
+	background-size: cover;
+}
+.image-two
+{
+	background-image: url(images/2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-three
+{
+	background-image: url(images/3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-four
+{
+	background-image: url(images/4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-five
+{
+	background-image: url(images/5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-six
+{
+	background-image: url(images/6.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+.image-seven
+{
+	background-image: url(images/7.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-eight
+{
+	background-image: url(images/8.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.image-nine
+{
+	background-image: url(images/9.jpg);
+	background-position: center;
+	background-size: cover;
+}
