@@ -1,0 +1,89 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+	padding: 30px;
+}
+h1
+{
+	color: white;
+	text-shadow: 0px 0px 10px black;
+	font-size: 100px;
+	margin-top: 50px;
+}
+.block-gradient
+{
+	display: inline-block;
+	width: 15vw;
+	height: 15vw;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin: 50px 10px;
+	transition: 1s;
+}
+.block-gradient:hover
+{
+	transform: scale(1.2);
+}
+.gradient-1
+{
+	background-image: linear-gradient(#F07F7F, #1E0662);
+}
+.gradient-2
+{
+	background-image: linear-gradient(#E06161 , #FF8A1E);
+}
+.gradient-3
+{
+	background-image: linear-gradient(#40AD5E, #00F7E8);
+}
+.gradient-4
+{
+	background-image: linear-gradient(#6486FF, #FFC27B);
+}
+.gradient-5
+{
+	background-image: linear-gradient(#F15597, #EAFFAF);
+}
+.gradient-6
+{
+	background-image: linear-gradient(#A0DDFF, #D00C8E);
+}
+.gradient-7
+{
+	background-image: linear-gradient(#FFB72B, #8DDC68);
+}
+.gradient-8
+{
+	background-image: linear-gradient(#A0DDFF, #0136F2);
+}
+.gradient-9
+{
+	background-image: linear-gradient(#3F21F3, #90FF86);
+}
+.gradient-10
+{
+	background-image: linear-gradient(#3E1361, #9C79FF);
+}
+
+@media(max-width:768px){
+	h1
+	{
+		text-align: left;
+		width: 83vw;
+		margin: auto;
+		font-size: 70px;
+	}
+    .block-gradient
+	{
+		display: block;
+		width: 83vw;
+		height: 40vw;
+		border-radius: 15px;
+		margin: 10px auto;
+	}
+}
