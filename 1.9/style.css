@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+.header-title {
+    font-size: 150px;
+    width: fit-content;
+    margin:auto;
+}
+.title {
+    position: relative;
+    color: black;
+    top:150px;
+    right: 20px;
+    z-index: 3;
+    animation: jump 4s ease 0s infinite ;
+}
+.title-red {
+    position: relative;
+    color:red;
+    opacity: 0.5;
+    z-index: 2;
+    animation: jump 3s ease 0s infinite alternate;
+}
+.title-blue {
+    position: relative;
+    color:blue;
+    opacity: 0.5;
+    bottom:150px;
+    left: 20px;
+    z-index: 1;
+    animation: jump 3s ease 1s infinite reverse;
+}
+.header-btn {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    text-decoration: none; 
+    text-align: center;
+    line-height: 50px;
+    z-index: 3;
+    transition: .5s;
+}
+.header-btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color:black
+}
+.header-btn-red {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-60%,-60%);
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+    z-index: 2;
+    animation: color-change 3s ease 0s infinite;
+}
+.header-btn-blue {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+    z-index: 1;
+    animation: color-change 5s ease 0s infinite;
+}
+.go-up-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px gray;
+}
+
+.articles-container{
+    width: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.article {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    margin-top:100px;
+}
+.article-title {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.article-category {
+    background-color: tomato;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 10px;
+}
+.article-img {
+    width: 100%;
+    filter: opacity(0.9) brightness(1.1);   
+    position: sticky;
+    top: 0;
+}
+.article-text {
+    padding: 40px;
+    position: relative;
+    z-index: 9;
+    background-color: white;
+}
+@keyframes jump{
+    0%{
+        transform: translate(0,0);
+        
+    }
+    50%{
+        transform: translate(-20px,20px);
+        
+    }
+    100%{
+        transform: translate(0,0);
+        
+    }
+}

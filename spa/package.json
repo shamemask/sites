@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "single-spa-vue": "^2.5.1",
+    "systemjs-webpack-interop": "^2.3.7",
+    "vue": "^3.2.44"
+  }
+}
